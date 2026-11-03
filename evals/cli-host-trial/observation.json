@@ -1,0 +1,13 @@
+{
+  "date": "2026-11-02",
+  "host": "Codex CLI 0.166.0-alpha.5.1",
+  "process_exit_code": 0,
+  "recovery_complete": false,
+  "skill_loaded": false,
+  "fixture_loaded": false,
+  "blocking_condition": "first required local read rejected: blocked by policy",
+  "new_invocations": 1,
+  "raw_logs_distributed": false,
+  "gui_new_chat": "untested",
+  "native_compaction": "untested"
+}

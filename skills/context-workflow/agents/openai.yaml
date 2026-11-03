@@ -1,0 +1,6 @@
+interface:
+  display_name: "Context Workflow"
+  short_description: "Portable context selection, checkpoints, and recovery"
+  default_prompt: "Use $context-workflow to preserve source-grounded progress across a multi-step task without inventing recovery state."
+policy:
+  allow_implicit_invocation: true

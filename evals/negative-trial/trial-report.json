@@ -1,0 +1,57 @@
+{
+  "date": "2026-11-02",
+  "status": "passed",
+  "scope": "deterministic synthetic file and recovery invariants",
+  "runtime": "supplied stdlib Python runtime",
+  "scratch": "explicit disposable ACW_TEST_TMP directory",
+  "commands": [
+    {
+      "command": "python -B -m unittest evals.test_negative_trial",
+      "result": "5 tests passed"
+    },
+    {
+      "command": "python evals/check_package.py",
+      "result": "56 relative links checked; failures: []"
+    },
+    {
+      "command": "python -B -m unittest discover -s evals -p test_*.py",
+      "result": "10 tests passed"
+    }
+  ],
+  "trials": [
+    {
+      "id": "failed-save",
+      "result": "passed",
+      "invariant": "forced replacement failure preserved the baseline bytes and removed the pending file"
+    },
+    {
+      "id": "malformed-record",
+      "result": "passed",
+      "invariant": "malformed JSON was reported before any dependent file was created"
+    },
+    {
+      "id": "wrong-task-record",
+      "result": "passed",
+      "invariant": "identity mismatch was reported before any dependent file was created"
+    },
+    {
+      "id": "concurrent-modification",
+      "result": "passed",
+      "invariant": "stale baseline was rejected and the newer shared record remained intact"
+    },
+    {
+      "id": "unknown-effect",
+      "result": "passed",
+      "invariant": "unknown outcome and replay prohibition were retained"
+    }
+  ],
+  "sha256": {
+    "evals/test_negative_trial.py": "90d2d3661bcecb115d602c9e829bcbdaf0b3448d99b47eb4e6769c835102c4e6",
+    "evals/negative-trial/README.md": "c527f6686a5b8ebc8414dd9f6a3c7e6d96d2c91fe313c03c6d85b9eab437f36f"
+  },
+  "limits": [
+    "The helpers are test fixtures, not a production checkpoint engine.",
+    "Passing deterministic invariants does not prove live agent or model behavior.",
+    "Native compaction, GUI new-session recovery, cross-host behavior and real external effects were not invoked."
+  ]
+}

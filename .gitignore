@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+!.env.example
+*.private.md
+*.local.md
+
+# Local governance, task history and build artifacts are not release content.
+/PROGRESS.md
+/AGENTS.md
+/PROJECT_CHARTER.md
+/PROJECT_SPEC.md
+/ARCHITECTURE.md
+/dist/
+/docs/*

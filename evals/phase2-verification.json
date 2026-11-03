@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-02",
+  "package": "context-workflow 0.1.0-preview",
+  "evidence": "synthetic local file trial and fresh isolated evaluation context",
+  "initial_checkpoint": "written/read back; authority-attribution wording error found and archived",
+  "correction": "revision2 read back; current request attribution corrected",
+  "fixture_invariants": "passed",
+  "fresh_recovery": "identified current source revision2 and unknown outcome; no dependent mutation",
+  "external_requests": 0,
+  "native_compaction": "not tested",
+  "gui_new_chat": "not tested",
+  "performance": "not measured",
+  "hash_timing": "final fixture hashes measured after actors finished; not available as prior checkpoint facts",
+  "files": {
+    "AGENTS.md": "58ab5d599e1e673530fa0560bbe91aad70d7ac6a8783123602f994c3a9349a0e",
+    "checkpoint-request.md": "dc4b1e030ede2d2138194d79bfe9ea7a0a4b88986c505c23778d68f84116e275",
+    "operations.json": "94928ecd74b8ddd75461a615ce08d52322d65ef7ad5da5e8c84e14ee45688e05",
+    "README.md": "45be42ba5e0b78726579dabd4479b15f7e865ad8a134b3318b78ee56ab994a8a",
+    "recovery-report.md": "f07c20a5a275a78c76fa14b13d4fe2a2b151beb57af70f09065eed940ebb8084",
+    "resume-request.md": "18024e94c5128784febbef7a739697792e7359cec1e887e88d496677bed6d416",
+    "session-input.md": "ac3111d7b9d72cf2da377a5573e8372c3887abc54e4acd57b052a227f950d35f",
+    "TASK.md": "f2632640bb51b904928ccba041f21cf79b213cec174f7ef02fba2b9b5a5b0a0c",
+    "baseline/requirements.v1.md": "c6ca4a541bdb15201eb566449e4eeadb773d41b3f68bf5c3ffe02fd162f4b422",
+    "baseline/TASK.first-attempt.md": "0ec20cb6d8d473e1ce7838866767811aa0e040648cd3e4c165d339e89505fd15",
+    "baseline/TASK.initial.md": "48a5432cb8fb9c2afea4dd11ac886d33c3a5c3416989e4daa8df11c47b416eb8",
+    "docs/data.md": "feee76a01787e9ec3d0f34ef761d3f57befca05906a907a08ecc76d555fc64eb",
+    "docs/INDEX.md": "f9f497612d24b89408c744cb507a8bfc17071ee813da056eb832adfeb9de7e24",
+    "docs/requirements.md": "b6111412f6cdf7d9e1be33cf6afd4caee3734b153c477410e6fca9997ee1f759"
+  }
+}
